@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar/>
+    <!-- <Navbar/> -->
     <router-view></router-view>
     <span>{{time}}</span>
     <Footer @onclock="onclock" copyright="&copy; copyright 2020 by theshowportfolio"/>
